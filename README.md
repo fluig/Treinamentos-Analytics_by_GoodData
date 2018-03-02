@@ -35,7 +35,7 @@ No graph de Download, é necessário configurar o componente com os dados do seu
   * Senha
   * id do projeto 
   * nome do arquivo zip que foi enviado para o ftp
-  
+------------------------------------------------------------------------------------------------------------------------------------
  * No arquivo my.properties do Agent é necessário substituir as tags do arquivo confome informado no treinamento. 
  * O arquivo run.exe é necessário editar e substituindo as tags informadas. 
 
