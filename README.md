@@ -30,7 +30,7 @@ Projeto desenvolvido pelo time fluig Academy para o treinamento de GoodData.
 
 ### Observações
 
---> No graph de Download, é necessário configurar o componente com os dados do seu projeto: 
+No graph de Download, é necessário configurar o componente com os dados do seu projeto: 
   * Usuario
   * Senha
   * id do projeto 
