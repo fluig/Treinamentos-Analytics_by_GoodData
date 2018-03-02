@@ -28,6 +28,14 @@ Projeto desenvolvido pelo time fluig Academy para o treinamento de GoodData.
 
 [GoodData](http://academy.fluig.com/ng/student/courses/gooddata/)
 
+### Observações
+
+--> No graph de Download, é necessário configurar o componente com os dados do seu projeto: 
+  * Usuario
+  * Senha
+  * id do projeto 
+  * nome do arquivo zip que foi enviado para o ftp
+
 ------------------------------------------------------------------------------------------------------------------------------------
 
 
