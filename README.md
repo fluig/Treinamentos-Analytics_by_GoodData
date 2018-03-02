@@ -14,11 +14,11 @@ Neste repositório você irá encontrar todos os exemplos utilizados nos treinam
 
 ### Origem do desenvolvimento
 
-Projeto desenvolvido pelo time fluig Academy para o treinamento de Tntegração fluig x RM.
+Projeto desenvolvido pelo time fluig Academy para o treinamento de GoodData.
 
 ###  Acesse o curso no portal fluig Academy
 
-[Fluig x RM](http://academy.fluig.com/ng/student/courses/integracao-fluig-x-rm/)
+[GoodData](http://academy.fluig.com/ng/student/courses/gooddata/)
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
