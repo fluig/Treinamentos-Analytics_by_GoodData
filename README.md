@@ -7,18 +7,18 @@ Neste repositório você irá encontrar o projeto utilizado no treinamento de Go
 ### Recursos úteis
 
 * Será necessária a instalação do CloudConnect (link para download: https://analytics.totvs.com.br/download-cc.html)
-* Importação do Banco de Dados (SQL Server) identificado como GoodData.
-* Configuração do Agent através do arquivo config.properties (Definindo o modo de acesso ao banco de dados através do JDBC enviando as informações via FTP GoodData) 
-* Criação do modelo lógico de dados (construido datasets e tipando seus dados em atributos e de fatos).
-* Criação do relacionamento entre os datasets através de chaves primarias e estrangeiras.
+* Importação do Banco de Dados GoodData (SQL Server) identificado como Fonte de Dados.
+* Configuração do Agent, através do arquivo config.properties (Definindo a extração do banco de dados SQL, através do JDBC enviando as informações via FTP GoodData) 
+* Criação do modelo lógico de dados (construido datasets e os dados classificados atributos e de fatos).
+* Criação do relacionamento entre os datasets, através de chaves primárias e estrangeiras.
 * Criação o graphs ETL para o tratamento dos dados.
-* Utilizando os componentes disponiveis no graph: 
+* Utilizando os componentes disponíveis no graph: 
 Componente Reader CSVReader (lê o arquivo de uma pasta no workspace do CloudConnect), componente Reformat (concatenou dados, formatou os números e data),  e o componente GD Dataset Writer (fez upload dos dados no projeto na nuvem GoodData).Também utilizamos outros componentes: DBInputTable, Trash, FastShort, SimpleCopy, ExtFilter, etc). 
-* Criamos parâmetros no workspace e utilizamos o arquivo de lib no CloudConnect.
-* Criando metadados entre os componentes do graph.
-* Definindo ordem de execução dos componentes via parâmetro "phase" no graph ETL _Main.
-* Realizando deploy no ambiente GoodData.
-* Configurando arquivo Agent para extração dos dados e automatização do ETL.
+* Criação de parâmetros no workspace e utilização do arquivo de lib no CloudConnect.
+* Criação de metadados entre os componentes do graph.
+* Definição da ordem de execução dos componentes utilizando "phase" no graph ETL _Main.
+* Realizando Deploy do projeto na nuvem GoodData.
+* Configuração do arquivo Agent para automatização do ETL.
 
 ### Origem do desenvolvimento
 
