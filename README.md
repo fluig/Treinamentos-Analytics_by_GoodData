@@ -26,8 +26,9 @@ Projeto desenvolvido pelo time fluig Academy para o treinamento de GoodData.
 
 ###  Acesse o curso no portal fluig Academy
 
-[GoodData](http://academy.fluig.com/ng/student/courses/gooddata/)
-[Desenvolvedor GoodData] (https://academy.fluig.com/courses/desenvolvedor-gooddata)
+GoodData: http://academy.fluig.com/ng/student/courses/gooddata/
+
+Desenvolvedor GoodData: https://academy.fluig.com/courses/desenvolvedor-gooddata
 
 
 ### Observações
