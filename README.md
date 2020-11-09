@@ -1,24 +1,24 @@
 # Treinamento-GoodData
 
-Neste repositório você irá encontrar todos os exemplos utilizados nos treinamentos de GoodData, permitindo que vocês façam download do respectivo arquivos e pratiquem!
+Neste repositório você irá encontrar o projeto utilizado no treinamento de GoodData, permitindo que vocês façam download do respectivo arquivos e pratiquem!
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
 ### Recursos úteis
 
-* Instalação e configuração do Cloud Connect
-* Importação de dados do excel para o SQL Server
-* Tratamento dos campos e dados no SQL Server utilizando comando Update e alter table
-* Configuração do Agent através do arquivo my.properties (Definindo o modo de acesso ao banco de dados através do JDBC enviando as informações via ftp) 
-* Criação do modelo lógico de dados (construido datasets e tipando seus dados em atributos e de fatos)
-* Criação do relacionamento entre os datasets através de chaves primarias e estrangeiras
-* Criação do arquivo graph para o tratamento dos dados
-* Utilizando os componentes disponiveis no graph (Csv reader / Reformat/ GD Dataset Write / REST Connector / JSONreader / Trash/ Rungraph / Download file / File Delete) 
-* Utilizando a linguagem Clover ETL (CTL2) para conversão dos dados por meio de funções (str2date() / str2decimal())
-* Criando metadados entre os elementos do graph
-* Definindo ordem de execução dos componentes via parâmetro "phase"
-* Realizando deploy no ambiente GoodData
-* Configurando arquivo Agent para automatização das etls
+* Será necessária a instalação do CloudConnect (link para download: https://analytics.totvs.com.br/download-cc.html)
+* Importação do Banco de Dados (SQL Server) identificado como GoodData.
+* Configuração do Agent através do arquivo config.properties (Definindo o modo de acesso ao banco de dados através do JDBC enviando as informações via FTP GoodData) 
+* Criação do modelo lógico de dados (construido datasets e tipando seus dados em atributos e de fatos).
+* Criação do relacionamento entre os datasets através de chaves primarias e estrangeiras.
+* Criação o graphs ETL para o tratamento dos dados.
+* Utilizando os componentes disponiveis no graph: 
+Componente Reader CSVReader (lê o arquivo de uma pasta no workspace do CloudConnect), componente Reformat (concatenou dados, formatou os números e data),  e o componente GD Dataset Writer (fez upload dos dados no projeto na nuvem GoodData).Também utilizamos outros componentes: DBInputTable, Trash, FastShort, SimpleCopy, ExtFilter, etc). 
+* Criamos parâmetros no workspace e utilizamos o arquivo de lib no CloudConnect.
+* Criando metadados entre os componentes do graph.
+* Definindo ordem de execução dos componentes via parâmetro "phase" no graph ETL _Main.
+* Realizando deploy no ambiente GoodData.
+* Configurando arquivo Agent para extração dos dados e automatização do ETL.
 
 ### Origem do desenvolvimento
 
@@ -27,17 +27,19 @@ Projeto desenvolvido pelo time fluig Academy para o treinamento de GoodData.
 ###  Acesse o curso no portal fluig Academy
 
 [GoodData](http://academy.fluig.com/ng/student/courses/gooddata/)
+[Desenvolvedor GoodData] (https://academy.fluig.com/courses/desenvolvedor-gooddata)
+
 
 ### Observações
 
-No graph de Download, é necessário configurar o componente com os dados do seu projeto: 
-  * Usuario
+No workspace.prm é necessário configurar os parâmetros comentados com os dados da sua conta de acesso ao projeto: 
+  * E-mail
   * Senha
-  * id do projeto 
-  * nome do arquivo zip que foi enviado para o ftp
+  * ID do Projeto 
+  * Nome do arquivo zip que foi enviado para o FTP GoodData
 ------------------------------------------------------------------------------------------------------------------------------------
- * No arquivo my.properties do Agent é necessário substituir as tags do arquivo confome informado no treinamento. 
- * O arquivo run.exe é necessário editar e substituindo as tags informadas. 
+ * No arquivo config.properties do Agent é necessário substituir as tags do arquivo confome informado no treinamento. 
+ * É necessário criar agendamento de tarefas apontado para o arquivo Run.bat para executar de acordo com a necessidade do negócio.
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
@@ -45,4 +47,4 @@ No graph de Download, é necessário configurar o componente com os dados do seu
 
 ### Fique ligado!
 
-Os projetos compartilhados no repositório do GitHub não possuem suporte pois é um ambiente de compartilhamento comunitário, sendo o modelo AS IS.  
+Os projetos compartilhados no repositório do GitHub não possuem suporte, pois é um ambiente de compartilhamento comunitário, sendo o modelo AS IS.  
