@@ -1,6 +1,6 @@
-# Treinamento-GoodData
+# Treinamentos-Analytics_by_GoodData
 
-Neste repositório você irá encontrar o projeto utilizado no treinamento de GoodData, permitindo que vocês façam download do respectivo arquivos e pratiquem!
+Neste repositório você irá encontrar os projetos utilizados nos treinamentos de Analytics by GoodData, permitindo que vocês façam download dos respectivos arquivos e pratiquem!
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
@@ -16,24 +16,26 @@ Neste repositório você irá encontrar o projeto utilizado no treinamento de Go
 Componente Reader CSVReader (lê o arquivo de uma pasta no workspace do CloudConnect), componente Reformat (concatenou dados, formatou os números e data),  e o componente GD Dataset Writer (fez upload dos dados no projeto na nuvem GoodData).Também utilizamos outros componentes: DBInputTable, Trash, FastShort, SimpleCopy, ExtFilter, etc). 
 * Criação de parâmetros no workspace e utilização do arquivo de lib no CloudConnect.
 * Criação de metadados entre os componentes do graph.
-* Definição da ordem de execução dos componentes utilizando "phase" no graph ETL _Main.
+* Definição da ordem de execução dos componentes utilizando "phase" no ETL graph _Main.
 * Realizando Deploy do projeto na nuvem GoodData.
 * Configuração do arquivo Agent para automatização do ETL.
 
 ### Origem do desenvolvimento
 
-Projeto desenvolvido pelo time fluig Academy para o treinamento de GoodData.
+Projetos desenvolvidos pelo time TOTVS Fluig Academy para os treinamentos de Analytics by GoodData.
 
-###  Acesse o curso no portal fluig Academy
+###  Acesse os cursos no portal TOTVS Fluig Academy
 
 GoodData: http://academy.fluig.com/ng/student/courses/gooddata/
 
 Desenvolvedor GoodData: https://academy.fluig.com/courses/desenvolvedor-gooddata
 
+GoodData Personalize seus Relatórios: https://academy.fluig.com/courses/gooddata-personalize-os-seus-relatorios
+
 
 ### Observações
 
-No workspace.prm é necessário configurar os parâmetros comentados com os dados da sua conta de acesso ao projeto: 
+No workspace.prm é necessário configurar os parâmetros comentados com os dados da sua conta TOTVS Analytics de acesso ao projeto: 
   * E-mail
   * Senha
   * ID do Projeto 
@@ -44,8 +46,6 @@ No workspace.prm é necessário configurar os parâmetros comentados com os dado
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
-
-
-### Fique ligado!
+### Fique atento!!!
 
 Os projetos compartilhados no repositório do GitHub não possuem suporte, pois é um ambiente de compartilhamento comunitário, sendo o modelo AS IS.  
