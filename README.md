@@ -7,7 +7,8 @@ Neste repositório você irá encontrar os projetos utilizados nos treinamentos 
 ### Recursos úteis
 
 * Será necessária a instalação do CloudConnect (link para download: https://analytics.totvs.com.br/download-cc.html)
-* Importação do Banco de Dados GoodData (SQL Server) identificado como Fonte de Dados.
+* Importação do Banco de Dados GoodData (SQL Server) identificado como Fonte de Dados. 
+* Obs.: A Fonte de Dados disponível será utilizado apenas para o projeto do treinamento Gestão de dados com Analytics by GoodData - Fundamentos para o outro treinamento será necessário que o aluno possua uma Fonte de Dados do Protheus.
 * Configuração do Agent, através do arquivo config.properties (Definindo a extração do banco de dados SQL, através do JDBC enviando as informações via FTP GoodData) 
 * Criação do modelo lógico de dados (construido datasets e os dados classificados atributos e de fatos).
 * Criação do relacionamento entre os datasets, através de chaves primárias e estrangeiras.
